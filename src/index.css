@@ -1,5 +1,19 @@
 /* purgecss start ignore */
+input {
+  min-width: 0;
+}
 @tailwind base;
+@import "~material-design-icons/iconfont/material-icons.css";
+
+.alert {
+  padding: 12px;
+  margin: 20px 0;
+  color: white;
+  border-radius: 12px;
+}
+.alert-success {
+  @apply bg-green-500;
+}
 
 @tailwind components;
 /* purgecss end ignore */
